@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    border: 30px solid brown;
+    width: 630px;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 72px;
+    height: 72px;
+}
+
+.a{
+    margin-left: 800px;
+}
+
+.wrap .box1 .box:nth-child(odd) {
+    background-color: black;
+}
+
+.wrap .box1 .box:nth-child(even) {
+    background-color: bisque;
+}
+
+.wrap .box2 .box:nth-child(even) {
+    background-color: black;
+}
+
+.wrap .box2 .box:nth-child(odd) {
+    background-color: bisque;
+}
+
+.wrap .box3 .box:nth-child(odd) {
+    background-color: black;
+}
+
+.wrap .box3 .box:nth-child(even) {
+    background-color: bisque;
+}
+
+.wrap .box4 .box:nth-child(even) {
+    background-color: black;
+}
+
+.wrap .box4 .box:nth-child(odd) {
+    background-color: bisque;
+}
+
+.wrap .box5 .box:nth-child(odd) {
+    background-color: black;
+}
+
+.wrap .box5 .box:nth-child(even) {
+    background-color: bisque;
+}
+
+.wrap .box6 .box:nth-child(even) {
+    background-color: black;
+}
+
+.wrap .box6 .box:nth-child(odd) {
+    background-color: bisque;
+}
+
+.wrap .box7 .box:nth-child(odd) {
+    background-color: black;
+}
+
+.wrap .box7 .box:nth-child(even) {
+    background-color: bisque;
+}
+
+.wrap .box8 .box:nth-child(even) {
+    background-color: black;
+}
+
+.wrap .box8 .box:nth-child(odd) {
+    background-color: bisque;
+}
